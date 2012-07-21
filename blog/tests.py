@@ -23,7 +23,7 @@ class BlogModelTest(LiveServerTestCase):
         post.body='Test post'
         post.created=timezone.now()
 
-        # now i'm gonna check if i can save this post
+        # now i'm gonna check if i can save this post yeah
         post.save()
 
         # check if post is in database

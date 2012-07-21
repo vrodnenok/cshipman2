@@ -1,0 +1,38 @@
+[
+  {
+    "pk": 1, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "root", 
+      "first_name": "", 
+      "last_name": "", 
+      "is_active": true, 
+      "is_superuser": true, 
+      "is_staff": true, 
+      "last_login": "2012-07-21T12:20:52Z", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "pbkdf2_sha256$10000$DCbR2oK6UTlc$4p0CWiY5kZaTRDlnr1S3GrM0zu+20a1H+8rHbkLr7oE=", 
+      "email": "victor.r@ukr.net", 
+      "date_joined": "2012-07-12T22:23:41Z"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "auth.user", 
+    "fields": {
+      "username": "inna", 
+      "first_name": "Innochka", 
+      "last_name": "Titorenko", 
+      "is_active": true, 
+      "is_superuser": false, 
+      "is_staff": false, 
+      "last_login": "2012-07-16T11:16:06Z", 
+      "groups": [], 
+      "user_permissions": [], 
+      "password": "pbkdf2_sha256$10000$HHZqdQHRMdfZ$mIGw203CiBBw8NNZEZCfCKruznvayLp1kqdIU0pClYQ=", 
+      "email": "", 
+      "date_joined": "2012-07-12T22:45:54Z"
+    }
+  }
+]

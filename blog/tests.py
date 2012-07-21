@@ -17,7 +17,7 @@ class BlogModelTest(LiveServerTestCase):
 
     def test_creating_a_new_post(self):
         """
-        Testing the Posts creation in Blog application
+        Testing the Posts creation in Blog application_
         """
         post=Post()
         post.body='Test post'

@@ -41,3 +41,16 @@ class VoyagesTest(LiveServerTestCase):
 
         # TODO: Gertrude uses the admin site to create a new Poll
         # self.fail('todo: finish tests')
+
+        self.browser.get(self.live_server_url)
+        body = self.browser.find_element_by_id("container")
+        self.assertIn('Content of this page is here', body.text)
+        home_btn = self.browser.find_element_by_id("home_btn")
+        self.assertIn('Home', home_btn.text)
+        manage_voyages_btn = self.browser.find_element_by_id('manage_voyages_btn')
+        self.assertIn('Manage voyages', manage_voyages_btn.text)
+        blog_btn = self.browser.find_element_by_id('blog_btn')
+        self.assertIn('Blog', blog_btn.text)
+        blog_btn.click()
+        body = self.browser.find_element_by_tag_name('body')
+        self.assertIn('Blogfd', body.text)

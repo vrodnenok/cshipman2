@@ -5,8 +5,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    url(r'^$', 'cshipman2.views.home', name='home'),
-    url(r'^blog/', 'blog.views.home'),
+    url(r'^$', 'cshipmain.views.home', name='home'),
+    url(r'^blog/', include('blog.urls')),
     # url(r'^cshipman2/', include('cshipman2.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation: ddfg
